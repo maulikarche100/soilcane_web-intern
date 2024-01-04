@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Products</title>
+    <link rel="stylesheet" href="../css/order.css">
+</head>
+<body>
+<div class="novbar">
+    <div>
+        <img  class="logo" src="../images/remove background.png"/>
+    </div>
+    <div class="navbar-menus">
+            <a class="menus" href="../html/index.html">Home</a>
+            <a class="menus" href="../html/product.html">Product</a>
+            <a class="menus" href="../html/problems.html">The Problem</a>
+            <a class="menus" href="../html/story.html">Our Story</a>
+            <img class="images" src="../images/facebook (1).png"/>
+            <img class="images" src="../images/instagram (1).png"/>
+            <img class="images" src="../images/shop.png"/>
+            <button class="btn">Get In Touch</button>
+    </div>
+</div>
+<div class="main-image-container-1">
+    <div class="main-image-container-2 ">
+        <p class="Order-title">Order Now</p>
+        <div class="main-image-container">
+            <img src="../images/img1.png" class="main-hotel-image" id="main-hotel-image" />
+        </div>
+
+        <div class="images-container">
+            <img src="../images/img2.png" class="hotel-image" onclick="changeImage(1)" />
+            <img src="../images/img3.png" class="hotel-image" onclick="changeImage(2)"/>
+            <img src="../images/imgmissing.png" class="hotel-image" onclick="changeImage(3)"/>
+            <img src="../images/recapimg2.png" class="hotel-image" onclick="changeImage(4)"/>
+            <img src="../images/recapimg3.png" class="hotel-image" onclick="changeImage(5)"/>
+            <img src="../images/recapimg4.png" class="hotel-image" onclick="changeImage(6)"/>
+            <img src="../images/recapimg5.png" class="hotel-image" onclick="changeImage(7)"/>
+            <img src="../images/recapimg6.png" class="hotel-image" onclick="changeImage(8)"/>
+        </div>
+    </div>
+    <div class="main-image-container-3">
+        <p class="main-image-container-3-title">WaterProof & StainProof Journals |</p>
+        <p class="title2">
+            ₹1799.00 Regular Price<br/>₹899.00 Sale Price
+            <p class="specification"><b>Specifications:</b>
+                <ul class="unorder-list">
+                    <li>
+                        9 variety of Handmade papers
+                    </li>
+                    <li>
+                        WaterProof
+                    </li>
+                    <li>
+                        StainProof
+                    </li>
+                    <li>
+                        40 Pages
+                    </li>
+                    <li>
+                        80-150 gsm
+                    </li>
+                </ul>
+            </p>
+            <p class="specification">
+                <b>Features:</b>
+                <ul class="unorder-list">
+                    <li>
+                        Biodegradable
+                    </li>
+                    <li>
+                        Chemical Free
+                    </li>
+                    <li>
+                        BlotProof
+                    </li>
+                </ul>
+            </p>
+            
+        </p>
+        <span class="container">
+            <label for="numberGuest" class="increDecre_Guest"><b>Quantity:</b></label>
+            <br/>
+            <span class="for_numGuest">
+                <img src="../images/minus.png" onclick="decrNumber()" class="numberIcons" />
+                <span class="guestValue" id="guestNumber"> 1 </span>
+                <img src="../images/plus.png" onclick="increNumber()" class="numberIcons" />
+            </span>
+        </span>
+        <br/>
+
+        <button type="button" class="btnConfirm" onclick="confirmcart()"> Add To Cart</button><br/>
+        <button type="button" class="btnConfirm1" onclick="buy()"> Buy Now </button>
+
+    </div>
+</div>
+
+<div>
+
+</div>
+    
+<script src="../js/order.js"></script>
+</body>
+</html>

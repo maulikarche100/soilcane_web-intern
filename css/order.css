@@ -1,0 +1,176 @@
+.novbar{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+.logo{
+    height: 130px;
+    padding: 50px;
+    position: absolute;
+}
+.navbar-menus{
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-left: 220px;
+    text-align: center;
+    top: 120px;
+    left: 90px;
+}
+.menus{
+    margin: 40px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+.menus:hover{
+    font-size: 24.8px;
+}
+.images{
+    height: 30px;
+    cursor: pointer;
+}
+.images:hover{
+    box-shadow: 1px 1px grey;
+    height: 29px;
+}
+.btn{
+    height: 50px;
+    width: 150px;
+    margin-left:100px; 
+    font-size: 20px;
+    color: white;
+    background-color: rgb(4, 239, 160);
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+.btn:hover{
+    box-shadow: 1px 1px grey;
+}
+.main-image-container-1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.main-image-container-2{
+   background-color: white;
+   width: 700px;
+   height: 650px;
+}
+.main-image-container-3{
+    background-color: white;
+    width:550px ;
+    height: 900px;
+}
+.Order-title{
+    font-size: 40px;
+    padding-top: 10px;
+    padding-left: 80px;
+    color: grey;
+}
+.main-image-container{
+    background-color: #f4f4f4;
+    border: 1px solid black;
+    margin-left: 80px;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    height: 400px;
+    width: 500px;
+}
+.main-hotel-image{
+    height:350px ;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
+.images-container{
+    display: flex;
+    justify-content: left;
+}
+.hotel-image{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+.main-image-container-3-title{
+    font-size: 40px;
+    color: rgb(98, 95, 95);
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.title2{
+    color: grey;
+    font-size: 25px;
+    padding-left: 10px;
+}
+.specification{
+    font-size: 20px;
+    padding-left: 10px;
+    color: rgb(98, 95, 95);
+}
+.unorder-list{
+    color: grey;
+}
+.increDecre_Guest{
+    color: rgb(98, 95, 95);
+    font-size: 20px;
+    padding-left: 10px;
+}
+.for_numGuest {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+}
+.guestValue {
+    position: relative;
+    bottom: 37px;
+    font-size: 20px;
+    font-weight: 25px;
+    border: 2px solid #000000;
+    padding: 6px 20px;
+}
+.numberIcons {
+    height: 25px;
+    margin: 25px;
+    cursor: pointer;
+    border: 2px solid #000000;
+    padding: 5px;
+}
+.btnConfirm {
+    height: 40px;
+    width: 200px;
+    margin-top: 25px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+    background-color:  rgb(8, 185, 126);
+    position: relative;
+    left: 150px;
+}
+.btnConfirm1 {
+    height: 40px;
+    width: 200px;
+    margin-top: 25px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+    background-color:  grey;
+    position: relative;
+    left: 150px;
+}
+
+
+

@@ -1,0 +1,122 @@
+.novbar{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+.logo{
+    height: 130px;
+    padding: 50px;
+    position: absolute;
+}
+.navbar-menus{
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-left: 220px;
+    text-align: center;
+    top: 120px;
+    left: 90px;
+}
+.menus{
+    margin: 40px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+.menus:hover{
+    font-size: 24.8px;
+}
+.image{
+    height: 30px;
+    cursor: pointer;
+}
+.btn{
+    height: 50px;
+    width: 150px;
+    margin-left:100px; 
+    font-size: 20px;
+    color: white;
+    background-color: rgb(4, 239, 160);
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+.btn:hover{
+    box-shadow: 1px 1px grey;
+}
+.products-title{
+    color: gray;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 200px;
+}
+
+.card {
+    height: 400px;
+    background-color:white;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    flex: 200px 0 0;
+  }
+  .card:hover{
+    box-shadow: 1px 1px 1px 1px grey;
+    cursor: pointer;
+    
+  }
+  .cards img {
+      width: 100%;
+      object-fit: cover;
+      text-decoration: none;
+  }
+  .images{
+   width: 200px;
+   height: 250px;
+  }
+  .price-cut{
+    color: grey;
+    text-align: left;
+    text-decoration: line-through;
+  }
+  .price{
+    color: grey;
+    text-align: left;
+  }
+  .cards-wrapper {
+    display: flex; 
+    transition: ease 0.5s;
+  }
+  .display-area {
+    padding-top: 30px;
+    width: 100%;
+  /*   border: 1px solid black; */
+    overflow-x: hidden;
+    margin: auto;
+  }
+  
+  .dots-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  
+  .dot {
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border-radius: 50%;
+    outline: none;
+  }
+  .dot:hover {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  .dot.active {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+
