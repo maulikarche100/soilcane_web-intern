@@ -118,5 +118,132 @@
   .dot.active {
     background: rgba(0, 0, 0, 0.5);
   }
-
-
+  @media screen and (max-width:600px) {
+    .novbar{
+        height: 450px;
+        width: 100%;
+        background-color: white;
+        position: relative;    
+    }
+    .logo{
+        height: 80px;
+        padding: 20px;
+        position: absolute;
+    }
+    .navbar-menus{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-weight: bold;
+        color: white;
+        margin-left: 180px;
+        text-align: center;
+        top: 10px;
+        left: 90px;
+    }
+    .menus{
+        margin: 20px;
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+    }
+    .menus:hover{
+        font-size: 19.5px;
+    }
+    .image{
+      height: 30px;
+      width: 30px;
+      margin-left: 70px;
+      
+  }
+    
+    .images:hover{
+        box-shadow: 1px 1px grey;
+        height: 29px;
+        width: 29px;
+    }
+    .btn{
+        height: 40px;
+        width: 120px;
+        margin-left:20px; 
+        margin-top: 50px;
+        font-size: 15px;
+        color: white;
+        background-color: rgb(4, 239, 160);
+        cursor: pointer;
+        border: none;
+        border-radius: 10px;
+    }
+    .btn:hover{
+        box-shadow: 1px 1px grey;
+    }
+    .products-title{
+      color: gray;
+      font-size: 28px;
+      padding-top: 50px;
+      padding-left: 50px;
+      width: 200px;
+  }
+  
+  .card {
+      height: 430px;
+      background-color:white;
+      color: black;
+      font-size: 20px;
+      text-align: center;
+      margin: 10px;
+      flex: 200px 0 0;
+    }
+    .cards img {
+        width: 100%;
+        text-decoration: none;
+    }
+    .images{
+     width: 250px;
+     height: 300px;
+    }
+    .price-cut{
+      color: grey;
+      text-align: left;
+      text-decoration: line-through;
+    }
+    .price{
+      color: grey;
+      text-align: left;
+      padding-left: 20px;
+    }
+    .cards-wrapper {
+      display: flex; 
+      transition: ease 0.5s;
+    }
+    .display-area {
+      padding-top: 30px;
+      width: 100%;
+    /*   border: 1px solid black; */
+      overflow-x: hidden;
+      margin: auto;
+    }
+    
+    .dots-wrapper {
+      display: flex;
+      justify-content: center;
+      margin: auto;
+    }
+    
+    .dot {
+      border: none;
+      background: rgba(0, 0, 0, 0.2);
+      width: 20px;
+      height: 20px;
+      margin: 5px;
+      border-radius: 50%;
+      outline: none;
+    }
+    .dot:hover {
+      background: rgba(0, 0, 0, 0.3);
+    }
+    .dot.active {
+      background: rgba(0, 0, 0, 0.5);
+    }
+  }
